@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--The css file in bootstrap-->
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+    <title>Course javascript</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="carousel slide container" id="demo" data-ride="carousel">
+
+        <!--indicator-->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!--slide show-->
+        <div class="carousel-inner">
+            <div class="carousel-item active w-100 h-100">
+                <img src="images/1.png" width="60%">
+            </div>
+            <div class="carousel-item w-100 h-100">
+                <img src="images/2.jpg">
+            </div>
+            <div class="carousel-item w-100 h-100">
+                <img src="images/3.jpg">
+            </div>
+           
+            <!--controlling sliding-->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </div>
+    <!--The js files popper , jquery , bootstrap-->
+    <script src="bootstrap-4.5.3-dist/js/popper.min.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/jquery-3.6.4.min.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>
